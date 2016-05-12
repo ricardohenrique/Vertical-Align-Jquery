@@ -15,16 +15,8 @@ $(function(){
     });
 
     function centerContentFirst(){
-        var container_01 = $('.row-01');
-        var altura_margin_01 = ((container_01.height() / 2) - 15); 
-        $('.vertical-align-row-first').css('margin-top', (altura_margin_01) + 'px');
+        var container = $('.container-align');
+        var altura_margin = ((container_01.height() / 2) - 15); 
+        $('.vertical-align').css('margin-top', (altura_margin) + 'px');
     }
-    function centerContentSecond(){
-        var container_02 = $('.row-02');
-        var altura_margin_02 = ((container_02.height() / 2) - 15); 
-        $('.vertical-align-row-second').css('margin-top', (altura_margin_02) + 'px');
-    }
-    // xx Align thumbs xx
-
-
 });
